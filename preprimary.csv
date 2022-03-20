@@ -1,267 +1,218 @@
 ,Country,Indicator,2018
-0,Africa Eastern and Southern,"Preprimary education, duration (years)",3.0
-1,Africa Western and Central,"Preprimary education, duration (years)",3.0
-2,Arab World,"Preprimary education, duration (years)",3.0
-3,Caribbean small states,"Preprimary education, duration (years)",4.0
-4,Central Europe and the Baltics,"Preprimary education, duration (years)",5.0
-5,Early-demographic dividend,"Preprimary education, duration (years)",4.0
-6,East Asia & Pacific,"Preprimary education, duration (years)",4.0
-7,East Asia & Pacific (excluding high income),"Preprimary education, duration (years)",4.0
-8,East Asia & Pacific (IDA & IBRD countries),"Preprimary education, duration (years)",4.5
-9,Euro area,"Preprimary education, duration (years)",6.0
-10,Europe & Central Asia,"Preprimary education, duration (years)",5.0
-11,Europe & Central Asia (excluding high income),"Preprimary education, duration (years)",5.0
-12,Europe & Central Asia (IDA & IBRD countries),"Preprimary education, duration (years)",5.0
-13,European Union,"Preprimary education, duration (years)",6.0
-14,Fragile and conflict affected situations,"Preprimary education, duration (years)",3.0
-15,Heavily indebted poor countries (HIPC),"Preprimary education, duration (years)",3.0
-16,High income,"Preprimary education, duration (years)",5.0
-17,IBRD only,"Preprimary education, duration (years)",5.0
-18,IDA & IBRD total,"Preprimary education, duration (years)",3.0
-19,IDA blend,"Preprimary education, duration (years)",3.0
-20,IDA only,"Preprimary education, duration (years)",3.0
-21,IDA total,"Preprimary education, duration (years)",3.0
-22,Late-demographic dividend,"Preprimary education, duration (years)",5.5
-23,Latin America & Caribbean,"Preprimary education, duration (years)",6.0
-24,Latin America & Caribbean (excluding high income),"Preprimary education, duration (years)",6.0
-25,Latin America & the Caribbean (IDA & IBRD countries),"Preprimary education, duration (years)",6.0
-26,Least developed countries: UN classification,"Preprimary education, duration (years)",3.0
-27,Low & middle income,"Preprimary education, duration (years)",3.0
-28,Low income,"Preprimary education, duration (years)",3.0
-29,Lower middle income,"Preprimary education, duration (years)",3.0
-30,Middle East & North Africa,"Preprimary education, duration (years)",3.0
-31,Middle East & North Africa (excluding high income),"Preprimary education, duration (years)",2.0
-32,Middle East & North Africa (IDA & IBRD countries),"Preprimary education, duration (years)",2.0
-33,Middle income,"Preprimary education, duration (years)",4.0
-34,North America,"Preprimary education, duration (years)",3.0
-35,Not classified,"Preprimary education, duration (years)",
-36,OECD members,"Preprimary education, duration (years)",5.0
-37,Other small states,"Preprimary education, duration (years)",3.0
-38,Pacific island small states,"Preprimary education, duration (years)",
-39,Post-demographic dividend,"Preprimary education, duration (years)",5.0
-40,Pre-demographic dividend,"Preprimary education, duration (years)",3.0
-41,Small states,"Preprimary education, duration (years)",3.0
-42,South Asia,"Preprimary education, duration (years)",2.0
-43,South Asia (IDA & IBRD),"Preprimary education, duration (years)",2.0
-44,Sub-Saharan Africa,"Preprimary education, duration (years)",3.0
-45,Sub-Saharan Africa (excluding high income),"Preprimary education, duration (years)",3.0
-46,Sub-Saharan Africa (IDA & IBRD countries),"Preprimary education, duration (years)",3.0
-47,Upper middle income,"Preprimary education, duration (years)",5.0
-48,World,"Preprimary education, duration (years)",4.0
-49,Afghanistan,"Preprimary education, duration (years)",1.0
-50,Albania,"Preprimary education, duration (years)",5.0
-51,Algeria,"Preprimary education, duration (years)",1.0
-52,American Samoa,"Preprimary education, duration (years)",
-53,Andorra,"Preprimary education, duration (years)",3.0
-54,Angola,"Preprimary education, duration (years)",2.0
-55,Antigua and Barbuda,"Preprimary education, duration (years)",5.0
-56,Argentina,"Preprimary education, duration (years)",6.0
-57,Armenia,"Preprimary education, duration (years)",3.0
-58,Aruba,"Preprimary education, duration (years)",2.0
-59,Australia,"Preprimary education, duration (years)",4.0
-60,Austria,"Preprimary education, duration (years)",6.0
-61,Azerbaijan,"Preprimary education, duration (years)",5.0
-62,"Bahamas, The","Preprimary education, duration (years)",2.0
-63,Bahrain,"Preprimary education, duration (years)",5.0
-64,Bangladesh,"Preprimary education, duration (years)",3.0
-65,Barbados,"Preprimary education, duration (years)",5.0
-66,Belarus,"Preprimary education, duration (years)",4.0
-67,Belgium,"Preprimary education, duration (years)",6.0
-68,Belize,"Preprimary education, duration (years)",2.0
-69,Benin,"Preprimary education, duration (years)",2.0
-70,Bermuda,"Preprimary education, duration (years)",1.0
-71,Bhutan,"Preprimary education, duration (years)",2.0
-72,Bolivia,"Preprimary education, duration (years)",2.0
-73,Bosnia and Herzegovina,"Preprimary education, duration (years)",5.0
-74,Botswana,"Preprimary education, duration (years)",3.0
-75,Brazil,"Preprimary education, duration (years)",6.0
-76,British Virgin Islands,"Preprimary education, duration (years)",5.0
-77,Brunei Darussalam,"Preprimary education, duration (years)",3.0
-78,Bulgaria,"Preprimary education, duration (years)",4.0
-79,Burkina Faso,"Preprimary education, duration (years)",3.0
-80,Burundi,"Preprimary education, duration (years)",2.0
-81,Cabo Verde,"Preprimary education, duration (years)",3.0
-82,Cambodia,"Preprimary education, duration (years)",6.0
-83,Cameroon,"Preprimary education, duration (years)",2.0
-84,Canada,"Preprimary education, duration (years)",3.0
-85,Cayman Islands,"Preprimary education, duration (years)",4.0
-86,Central African Republic,"Preprimary education, duration (years)",3.0
-87,Chad,"Preprimary education, duration (years)",3.0
-88,Channel Islands,"Preprimary education, duration (years)",
-89,Chile,"Preprimary education, duration (years)",6.0
-90,China,"Preprimary education, duration (years)",3.0
-91,Colombia,"Preprimary education, duration (years)",6.0
-92,Comoros,"Preprimary education, duration (years)",3.0
-93,"Congo, Dem. Rep.","Preprimary education, duration (years)",3.0
-94,"Congo, Rep.","Preprimary education, duration (years)",3.0
-95,Costa Rica,"Preprimary education, duration (years)",6.0
-96,Cote d'Ivoire,"Preprimary education, duration (years)",3.0
-97,Croatia,"Preprimary education, duration (years)",6.0
-98,Cuba,"Preprimary education, duration (years)",6.0
-99,Curacao,"Preprimary education, duration (years)",2.0
-100,Cyprus,"Preprimary education, duration (years)",6.0
-101,Czech Republic,"Preprimary education, duration (years)",3.0
-102,Denmark,"Preprimary education, duration (years)",6.0
-103,Djibouti,"Preprimary education, duration (years)",2.0
-104,Dominica,"Preprimary education, duration (years)",5.0
-105,Dominican Republic,"Preprimary education, duration (years)",3.0
-106,Ecuador,"Preprimary education, duration (years)",3.0
-107,"Egypt, Arab Rep.","Preprimary education, duration (years)",2.0
-108,El Salvador,"Preprimary education, duration (years)",7.0
-109,Equatorial Guinea,"Preprimary education, duration (years)",6.0
-110,Eritrea,"Preprimary education, duration (years)",2.0
-111,Estonia,"Preprimary education, duration (years)",7.0
-112,Eswatini,"Preprimary education, duration (years)",3.0
-113,Ethiopia,"Preprimary education, duration (years)",3.0
-114,Faroe Islands,"Preprimary education, duration (years)",
-115,Fiji,"Preprimary education, duration (years)",3.0
-116,Finland,"Preprimary education, duration (years)",6.0
-117,France,"Preprimary education, duration (years)",3.0
-118,French Polynesia,"Preprimary education, duration (years)",
-119,Gabon,"Preprimary education, duration (years)",3.0
-120,"Gambia, The","Preprimary education, duration (years)",5.0
-121,Georgia,"Preprimary education, duration (years)",3.0
-122,Germany,"Preprimary education, duration (years)",6.0
-123,Ghana,"Preprimary education, duration (years)",5.0
-124,Gibraltar,"Preprimary education, duration (years)",4.0
-125,Greece,"Preprimary education, duration (years)",6.0
-126,Greenland,"Preprimary education, duration (years)",
-127,Grenada,"Preprimary education, duration (years)",5.0
-128,Guam,"Preprimary education, duration (years)",
-129,Guatemala,"Preprimary education, duration (years)",7.0
-130,Guinea,"Preprimary education, duration (years)",5.0
-131,Guinea-Bissau,"Preprimary education, duration (years)",3.0
-132,Guyana,"Preprimary education, duration (years)",3.0
-133,Haiti,"Preprimary education, duration (years)",6.0
-134,Honduras,"Preprimary education, duration (years)",3.0
-135,"Hong Kong SAR, China","Preprimary education, duration (years)",3.0
-136,Hungary,"Preprimary education, duration (years)",5.0
-137,Iceland,"Preprimary education, duration (years)",6.0
-138,India,"Preprimary education, duration (years)",3.0
-139,Indonesia,"Preprimary education, duration (years)",6.0
-140,"Iran, Islamic Rep.","Preprimary education, duration (years)",1.0
-141,Iraq,"Preprimary education, duration (years)",2.0
-142,Ireland,"Preprimary education, duration (years)",5.0
-143,Isle of Man,"Preprimary education, duration (years)",
-144,Israel,"Preprimary education, duration (years)",6.0
-145,Italy,"Preprimary education, duration (years)",3.0
-146,Jamaica,"Preprimary education, duration (years)",6.0
-147,Japan,"Preprimary education, duration (years)",3.0
-148,Jordan,"Preprimary education, duration (years)",2.0
-149,Kazakhstan,"Preprimary education, duration (years)",6.0
-150,Kenya,"Preprimary education, duration (years)",3.0
-151,Kiribati,"Preprimary education, duration (years)",3.0
-152,"Korea, Dem. People's Rep.","Preprimary education, duration (years)",4.0
-153,"Korea, Rep.","Preprimary education, duration (years)",5.0
-154,Kosovo,"Preprimary education, duration (years)",
-155,Kuwait,"Preprimary education, duration (years)",2.0
-156,Kyrgyz Republic,"Preprimary education, duration (years)",6.0
-157,Lao PDR,"Preprimary education, duration (years)",6.0
-158,Latvia,"Preprimary education, duration (years)",6.0
-159,Lebanon,"Preprimary education, duration (years)",3.0
-160,Lesotho,"Preprimary education, duration (years)",3.0
-161,Liberia,"Preprimary education, duration (years)",3.0
-162,Libya,"Preprimary education, duration (years)",2.0
-163,Liechtenstein,"Preprimary education, duration (years)",7.0
-164,Lithuania,"Preprimary education, duration (years)",7.0
-165,Luxembourg,"Preprimary education, duration (years)",3.0
-166,"Macao SAR, China","Preprimary education, duration (years)",3.0
-167,Madagascar,"Preprimary education, duration (years)",3.0
-168,Malawi,"Preprimary education, duration (years)",3.0
-169,Malaysia,"Preprimary education, duration (years)",2.0
-170,Maldives,"Preprimary education, duration (years)",3.0
-171,Mali,"Preprimary education, duration (years)",3.0
-172,Malta,"Preprimary education, duration (years)",
-173,Marshall Islands,"Preprimary education, duration (years)",2.0
-174,Mauritania,"Preprimary education, duration (years)",6.0
-175,Mauritius,"Preprimary education, duration (years)",3.0
-176,Mexico,"Preprimary education, duration (years)",6.0
-177,"Micronesia, Fed. Sts.","Preprimary education, duration (years)",3.0
-178,Moldova,"Preprimary education, duration (years)",6.0
-179,Monaco,"Preprimary education, duration (years)",3.0
-180,Mongolia,"Preprimary education, duration (years)",4.0
-181,Montenegro,"Preprimary education, duration (years)",5.0
-182,Morocco,"Preprimary education, duration (years)",5.0
-183,Mozambique,"Preprimary education, duration (years)",3.0
-184,Myanmar,"Preprimary education, duration (years)",5.0
-185,Namibia,"Preprimary education, duration (years)",
-186,Nauru,"Preprimary education, duration (years)",3.0
-187,Nepal,"Preprimary education, duration (years)",2.0
-188,Netherlands,"Preprimary education, duration (years)",3.0
-189,New Caledonia,"Preprimary education, duration (years)",
-190,New Zealand,"Preprimary education, duration (years)",5.0
-191,Nicaragua,"Preprimary education, duration (years)",6.0
-192,Niger,"Preprimary education, duration (years)",3.0
-193,Nigeria,"Preprimary education, duration (years)",5.0
-194,North Macedonia,"Preprimary education, duration (years)",5.0
-195,Northern Mariana Islands,"Preprimary education, duration (years)",
-196,Norway,"Preprimary education, duration (years)",5.0
-197,Oman,"Preprimary education, duration (years)",6.0
-198,Pakistan,"Preprimary education, duration (years)",2.0
-199,Palau,"Preprimary education, duration (years)",3.0
-200,Panama,"Preprimary education, duration (years)",6.0
-201,Papua New Guinea,"Preprimary education, duration (years)",4.0
-202,Paraguay,"Preprimary education, duration (years)",5.0
-203,Peru,"Preprimary education, duration (years)",6.0
-204,Philippines,"Preprimary education, duration (years)",1.0
-205,Poland,"Preprimary education, duration (years)",4.0
-206,Portugal,"Preprimary education, duration (years)",
-207,Puerto Rico,"Preprimary education, duration (years)",6.0
-208,Qatar,"Preprimary education, duration (years)",6.0
-209,Romania,"Preprimary education, duration (years)",6.0
-210,Russian Federation,"Preprimary education, duration (years)",6.0
-211,Rwanda,"Preprimary education, duration (years)",6.0
-212,Samoa,"Preprimary education, duration (years)",2.0
-213,San Marino,"Preprimary education, duration (years)",6.0
-214,Sao Tome and Principe,"Preprimary education, duration (years)",3.0
-215,Saudi Arabia,"Preprimary education, duration (years)",4.0
-216,Senegal,"Preprimary education, duration (years)",3.0
-217,Serbia,"Preprimary education, duration (years)",6.0
-218,Seychelles,"Preprimary education, duration (years)",2.0
-219,Sierra Leone,"Preprimary education, duration (years)",3.0
-220,Singapore,"Preprimary education, duration (years)",6.0
-221,Sint Maarten (Dutch part),"Preprimary education, duration (years)",6.0
-222,Slovak Republic,"Preprimary education, duration (years)",3.0
-223,Slovenia,"Preprimary education, duration (years)",5.0
-224,Solomon Islands,"Preprimary education, duration (years)",3.0
-225,Somalia,"Preprimary education, duration (years)",3.0
-226,South Africa,"Preprimary education, duration (years)",7.0
-227,South Sudan,"Preprimary education, duration (years)",3.0
-228,Spain,"Preprimary education, duration (years)",6.0
-229,Sri Lanka,"Preprimary education, duration (years)",2.0
-230,St. Kitts and Nevis,"Preprimary education, duration (years)",4.0
-231,St. Lucia,"Preprimary education, duration (years)",4.0
-232,St. Martin (French part),"Preprimary education, duration (years)",
-233,St. Vincent and the Grenadines,"Preprimary education, duration (years)",2.0
-234,Sudan,"Preprimary education, duration (years)",2.0
-235,Suriname,"Preprimary education, duration (years)",2.0
-236,Sweden,"Preprimary education, duration (years)",6.0
-237,Switzerland,"Preprimary education, duration (years)",2.0
-238,Syrian Arab Republic,"Preprimary education, duration (years)",3.0
-239,Tajikistan,"Preprimary education, duration (years)",4.0
-240,Tanzania,"Preprimary education, duration (years)",2.0
-241,Thailand,"Preprimary education, duration (years)",5.0
-242,Timor-Leste,"Preprimary education, duration (years)",3.0
-243,Togo,"Preprimary education, duration (years)",3.0
-244,Tonga,"Preprimary education, duration (years)",2.0
-245,Trinidad and Tobago,"Preprimary education, duration (years)",2.0
-246,Tunisia,"Preprimary education, duration (years)",3.0
-247,Turkey,"Preprimary education, duration (years)",5.0
-248,Turkmenistan,"Preprimary education, duration (years)",5.0
-249,Turks and Caicos Islands,"Preprimary education, duration (years)",2.0
-250,Tuvalu,"Preprimary education, duration (years)",3.0
-251,Uganda,"Preprimary education, duration (years)",3.0
-252,Ukraine,"Preprimary education, duration (years)",5.0
-253,United Arab Emirates,"Preprimary education, duration (years)",6.0
-254,United Kingdom,"Preprimary education, duration (years)",4.0
-255,United States,"Preprimary education, duration (years)",
-256,Uruguay,"Preprimary education, duration (years)",6.0
-257,Uzbekistan,"Preprimary education, duration (years)",4.0
-258,Vanuatu,"Preprimary education, duration (years)",
-259,"Venezuela, RB","Preprimary education, duration (years)",5.0
-260,Vietnam,"Preprimary education, duration (years)",6.0
-261,Virgin Islands (U.S.),"Preprimary education, duration (years)",
-262,West Bank and Gaza,"Preprimary education, duration (years)",2.0
-263,"Yemen, Rep.","Preprimary education, duration (years)",6.0
-264,Zambia,"Preprimary education, duration (years)",4.0
-265,Zimbabwe,"Preprimary education, duration (years)",2.0
+0,Afghanistan,"Preprimary education, duration (years)",1.0
+1,Albania,"Preprimary education, duration (years)",5.0
+2,Algeria,"Preprimary education, duration (years)",1.0
+3,American Samoa,"Preprimary education, duration (years)",
+4,Andorra,"Preprimary education, duration (years)",3.0
+5,Angola,"Preprimary education, duration (years)",2.0
+6,Antigua and Barbuda,"Preprimary education, duration (years)",5.0
+7,Argentina,"Preprimary education, duration (years)",6.0
+8,Armenia,"Preprimary education, duration (years)",3.0
+9,Aruba,"Preprimary education, duration (years)",2.0
+10,Australia,"Preprimary education, duration (years)",4.0
+11,Austria,"Preprimary education, duration (years)",6.0
+12,Azerbaijan,"Preprimary education, duration (years)",5.0
+13,"Bahamas, The","Preprimary education, duration (years)",2.0
+14,Bahrain,"Preprimary education, duration (years)",5.0
+15,Bangladesh,"Preprimary education, duration (years)",3.0
+16,Barbados,"Preprimary education, duration (years)",5.0
+17,Belarus,"Preprimary education, duration (years)",4.0
+18,Belgium,"Preprimary education, duration (years)",6.0
+19,Belize,"Preprimary education, duration (years)",2.0
+20,Benin,"Preprimary education, duration (years)",2.0
+21,Bermuda,"Preprimary education, duration (years)",1.0
+22,Bhutan,"Preprimary education, duration (years)",2.0
+23,Bolivia,"Preprimary education, duration (years)",2.0
+24,Bosnia and Herzegovina,"Preprimary education, duration (years)",5.0
+25,Botswana,"Preprimary education, duration (years)",3.0
+26,Brazil,"Preprimary education, duration (years)",6.0
+27,British Virgin Islands,"Preprimary education, duration (years)",5.0
+28,Brunei Darussalam,"Preprimary education, duration (years)",3.0
+29,Bulgaria,"Preprimary education, duration (years)",4.0
+30,Burkina Faso,"Preprimary education, duration (years)",3.0
+31,Burundi,"Preprimary education, duration (years)",2.0
+32,Cabo Verde,"Preprimary education, duration (years)",3.0
+33,Cambodia,"Preprimary education, duration (years)",6.0
+34,Cameroon,"Preprimary education, duration (years)",2.0
+35,Canada,"Preprimary education, duration (years)",3.0
+36,Cayman Islands,"Preprimary education, duration (years)",4.0
+37,Central African Republic,"Preprimary education, duration (years)",3.0
+38,Chad,"Preprimary education, duration (years)",3.0
+39,Channel Islands,"Preprimary education, duration (years)",
+40,Chile,"Preprimary education, duration (years)",6.0
+41,China,"Preprimary education, duration (years)",3.0
+42,Colombia,"Preprimary education, duration (years)",6.0
+43,Comoros,"Preprimary education, duration (years)",3.0
+44,"Congo, Dem. Rep.","Preprimary education, duration (years)",3.0
+45,"Congo, Rep.","Preprimary education, duration (years)",3.0
+46,Costa Rica,"Preprimary education, duration (years)",6.0
+47,Cote d'Ivoire,"Preprimary education, duration (years)",3.0
+48,Croatia,"Preprimary education, duration (years)",6.0
+49,Cuba,"Preprimary education, duration (years)",6.0
+50,Curacao,"Preprimary education, duration (years)",2.0
+51,Cyprus,"Preprimary education, duration (years)",6.0
+52,Czech Republic,"Preprimary education, duration (years)",3.0
+53,Denmark,"Preprimary education, duration (years)",6.0
+54,Djibouti,"Preprimary education, duration (years)",2.0
+55,Dominica,"Preprimary education, duration (years)",5.0
+56,Dominican Republic,"Preprimary education, duration (years)",3.0
+57,Ecuador,"Preprimary education, duration (years)",3.0
+58,"Egypt, Arab Rep.","Preprimary education, duration (years)",2.0
+59,El Salvador,"Preprimary education, duration (years)",7.0
+60,Equatorial Guinea,"Preprimary education, duration (years)",6.0
+61,Eritrea,"Preprimary education, duration (years)",2.0
+62,Estonia,"Preprimary education, duration (years)",7.0
+63,Eswatini,"Preprimary education, duration (years)",3.0
+64,Ethiopia,"Preprimary education, duration (years)",3.0
+65,Faroe Islands,"Preprimary education, duration (years)",
+66,Fiji,"Preprimary education, duration (years)",3.0
+67,Finland,"Preprimary education, duration (years)",6.0
+68,France,"Preprimary education, duration (years)",3.0
+69,French Polynesia,"Preprimary education, duration (years)",
+70,Gabon,"Preprimary education, duration (years)",3.0
+71,"Gambia, The","Preprimary education, duration (years)",5.0
+72,Georgia,"Preprimary education, duration (years)",3.0
+73,Germany,"Preprimary education, duration (years)",6.0
+74,Ghana,"Preprimary education, duration (years)",5.0
+75,Gibraltar,"Preprimary education, duration (years)",4.0
+76,Greece,"Preprimary education, duration (years)",6.0
+77,Greenland,"Preprimary education, duration (years)",
+78,Grenada,"Preprimary education, duration (years)",5.0
+79,Guam,"Preprimary education, duration (years)",
+80,Guatemala,"Preprimary education, duration (years)",7.0
+81,Guinea,"Preprimary education, duration (years)",5.0
+82,Guinea-Bissau,"Preprimary education, duration (years)",3.0
+83,Guyana,"Preprimary education, duration (years)",3.0
+84,Haiti,"Preprimary education, duration (years)",6.0
+85,Honduras,"Preprimary education, duration (years)",3.0
+86,"Hong Kong SAR, China","Preprimary education, duration (years)",3.0
+87,Hungary,"Preprimary education, duration (years)",5.0
+88,Iceland,"Preprimary education, duration (years)",6.0
+89,India,"Preprimary education, duration (years)",3.0
+90,Indonesia,"Preprimary education, duration (years)",6.0
+91,"Iran, Islamic Rep.","Preprimary education, duration (years)",1.0
+92,Iraq,"Preprimary education, duration (years)",2.0
+93,Ireland,"Preprimary education, duration (years)",5.0
+94,Isle of Man,"Preprimary education, duration (years)",
+95,Israel,"Preprimary education, duration (years)",6.0
+96,Italy,"Preprimary education, duration (years)",3.0
+97,Jamaica,"Preprimary education, duration (years)",6.0
+98,Japan,"Preprimary education, duration (years)",3.0
+99,Jordan,"Preprimary education, duration (years)",2.0
+100,Kazakhstan,"Preprimary education, duration (years)",6.0
+101,Kenya,"Preprimary education, duration (years)",3.0
+102,Kiribati,"Preprimary education, duration (years)",3.0
+103,"Korea, Dem. People's Rep.","Preprimary education, duration (years)",4.0
+104,"Korea, Rep.","Preprimary education, duration (years)",5.0
+105,Kosovo,"Preprimary education, duration (years)",
+106,Kuwait,"Preprimary education, duration (years)",2.0
+107,Kyrgyz Republic,"Preprimary education, duration (years)",6.0
+108,Lao PDR,"Preprimary education, duration (years)",6.0
+109,Latvia,"Preprimary education, duration (years)",6.0
+110,Lebanon,"Preprimary education, duration (years)",3.0
+111,Lesotho,"Preprimary education, duration (years)",3.0
+112,Liberia,"Preprimary education, duration (years)",3.0
+113,Libya,"Preprimary education, duration (years)",2.0
+114,Liechtenstein,"Preprimary education, duration (years)",7.0
+115,Lithuania,"Preprimary education, duration (years)",7.0
+116,Luxembourg,"Preprimary education, duration (years)",3.0
+117,"Macao SAR, China","Preprimary education, duration (years)",3.0
+118,Madagascar,"Preprimary education, duration (years)",3.0
+119,Malawi,"Preprimary education, duration (years)",3.0
+120,Malaysia,"Preprimary education, duration (years)",2.0
+121,Maldives,"Preprimary education, duration (years)",3.0
+122,Mali,"Preprimary education, duration (years)",3.0
+123,Malta,"Preprimary education, duration (years)",
+124,Marshall Islands,"Preprimary education, duration (years)",2.0
+125,Mauritania,"Preprimary education, duration (years)",6.0
+126,Mauritius,"Preprimary education, duration (years)",3.0
+127,Mexico,"Preprimary education, duration (years)",6.0
+128,"Micronesia, Fed. Sts.","Preprimary education, duration (years)",3.0
+129,Moldova,"Preprimary education, duration (years)",6.0
+130,Monaco,"Preprimary education, duration (years)",3.0
+131,Mongolia,"Preprimary education, duration (years)",4.0
+132,Montenegro,"Preprimary education, duration (years)",5.0
+133,Morocco,"Preprimary education, duration (years)",5.0
+134,Mozambique,"Preprimary education, duration (years)",3.0
+135,Myanmar,"Preprimary education, duration (years)",5.0
+136,Namibia,"Preprimary education, duration (years)",
+137,Nauru,"Preprimary education, duration (years)",3.0
+138,Nepal,"Preprimary education, duration (years)",2.0
+139,Netherlands,"Preprimary education, duration (years)",3.0
+140,New Caledonia,"Preprimary education, duration (years)",
+141,New Zealand,"Preprimary education, duration (years)",5.0
+142,Nicaragua,"Preprimary education, duration (years)",6.0
+143,Niger,"Preprimary education, duration (years)",3.0
+144,Nigeria,"Preprimary education, duration (years)",5.0
+145,North Macedonia,"Preprimary education, duration (years)",5.0
+146,Northern Mariana Islands,"Preprimary education, duration (years)",
+147,Norway,"Preprimary education, duration (years)",5.0
+148,Oman,"Preprimary education, duration (years)",6.0
+149,Pakistan,"Preprimary education, duration (years)",2.0
+150,Palau,"Preprimary education, duration (years)",3.0
+151,Panama,"Preprimary education, duration (years)",6.0
+152,Papua New Guinea,"Preprimary education, duration (years)",4.0
+153,Paraguay,"Preprimary education, duration (years)",5.0
+154,Peru,"Preprimary education, duration (years)",6.0
+155,Philippines,"Preprimary education, duration (years)",1.0
+156,Poland,"Preprimary education, duration (years)",4.0
+157,Portugal,"Preprimary education, duration (years)",
+158,Puerto Rico,"Preprimary education, duration (years)",6.0
+159,Qatar,"Preprimary education, duration (years)",6.0
+160,Romania,"Preprimary education, duration (years)",6.0
+161,Russian Federation,"Preprimary education, duration (years)",6.0
+162,Rwanda,"Preprimary education, duration (years)",6.0
+163,Samoa,"Preprimary education, duration (years)",2.0
+164,San Marino,"Preprimary education, duration (years)",6.0
+165,Sao Tome and Principe,"Preprimary education, duration (years)",3.0
+166,Saudi Arabia,"Preprimary education, duration (years)",4.0
+167,Senegal,"Preprimary education, duration (years)",3.0
+168,Serbia,"Preprimary education, duration (years)",6.0
+169,Seychelles,"Preprimary education, duration (years)",2.0
+170,Sierra Leone,"Preprimary education, duration (years)",3.0
+171,Singapore,"Preprimary education, duration (years)",6.0
+172,Sint Maarten (Dutch part),"Preprimary education, duration (years)",6.0
+173,Slovak Republic,"Preprimary education, duration (years)",3.0
+174,Slovenia,"Preprimary education, duration (years)",5.0
+175,Solomon Islands,"Preprimary education, duration (years)",3.0
+176,Somalia,"Preprimary education, duration (years)",3.0
+177,South Africa,"Preprimary education, duration (years)",7.0
+178,South Sudan,"Preprimary education, duration (years)",3.0
+179,Spain,"Preprimary education, duration (years)",6.0
+180,Sri Lanka,"Preprimary education, duration (years)",2.0
+181,St. Kitts and Nevis,"Preprimary education, duration (years)",4.0
+182,St. Lucia,"Preprimary education, duration (years)",4.0
+183,St. Martin (French part),"Preprimary education, duration (years)",
+184,St. Vincent and the Grenadines,"Preprimary education, duration (years)",2.0
+185,Sudan,"Preprimary education, duration (years)",2.0
+186,Suriname,"Preprimary education, duration (years)",2.0
+187,Sweden,"Preprimary education, duration (years)",6.0
+188,Switzerland,"Preprimary education, duration (years)",2.0
+189,Syrian Arab Republic,"Preprimary education, duration (years)",3.0
+190,Tajikistan,"Preprimary education, duration (years)",4.0
+191,Tanzania,"Preprimary education, duration (years)",2.0
+192,Thailand,"Preprimary education, duration (years)",5.0
+193,Timor-Leste,"Preprimary education, duration (years)",3.0
+194,Togo,"Preprimary education, duration (years)",3.0
+195,Tonga,"Preprimary education, duration (years)",2.0
+196,Trinidad and Tobago,"Preprimary education, duration (years)",2.0
+197,Tunisia,"Preprimary education, duration (years)",3.0
+198,Turkey,"Preprimary education, duration (years)",5.0
+199,Turkmenistan,"Preprimary education, duration (years)",5.0
+200,Turks and Caicos Islands,"Preprimary education, duration (years)",2.0
+201,Tuvalu,"Preprimary education, duration (years)",3.0
+202,Uganda,"Preprimary education, duration (years)",3.0
+203,Ukraine,"Preprimary education, duration (years)",5.0
+204,United Arab Emirates,"Preprimary education, duration (years)",6.0
+205,United Kingdom,"Preprimary education, duration (years)",4.0
+206,United States,"Preprimary education, duration (years)",
+207,Uruguay,"Preprimary education, duration (years)",6.0
+208,Uzbekistan,"Preprimary education, duration (years)",4.0
+209,Vanuatu,"Preprimary education, duration (years)",
+210,"Venezuela, RB","Preprimary education, duration (years)",5.0
+211,Vietnam,"Preprimary education, duration (years)",6.0
+212,Virgin Islands (U.S.),"Preprimary education, duration (years)",
+213,West Bank and Gaza,"Preprimary education, duration (years)",2.0
+214,"Yemen, Rep.","Preprimary education, duration (years)",6.0
+215,Zambia,"Preprimary education, duration (years)",4.0
+216,Zimbabwe,"Preprimary education, duration (years)",2.0
