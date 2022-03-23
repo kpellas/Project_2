@@ -1,4 +1,8 @@
-d3.json('/api/v1/data').then((data) => console.log(data));
+// d3.json('/api/v1/data').then((data) =>
+//   console.log(data['Probability of Dying 15-19'])
+// // );
+
+d3.json('/api/v1/bar').then((bar_data) => console.log(bar_data));
 // Set size of SVG
 const svgWidth = 960;
 const svgHeight = 620;
@@ -28,8 +32,8 @@ const chartGroup = svg
   .attr('transform', `translate(${margin.left}, ${margin.top})`);
 
 // Set Initial Parameters for X and Y
-let chosenXAxis = 'Access to Drinking Water';
-let chosenYAxis = 'Probability of Dying 5-9';
+let chosenXAxis = 'Probability of Dying 5-9';
+let chosenYAxis = 'Basic Sanitation';
 
 // Function used for updating x-scale var upon click on axis label
 function xScale(data, chosenXAxis) {
@@ -99,12 +103,12 @@ function renderText(textGroup, newXScale, chosenXAxis, newYScale, chosenYAxis) {
 
 // Function for setting values in tooltip
 function valueX(value, chosenXAxis) {
-  //vale based on variable
-  //poverty
+  //value based on variable
+  // 5-9
   if (chosenXAxis === 'Probability of Dying 5-9') {
     return `${value}%`;
   }
-  //household income
+  //10-14
   else if (chosenXAxis === 'Probability of Dying 15-19') {
     return `${value}`;
   } else {
@@ -118,22 +122,23 @@ function updateToolTip(chosenXAxis, chosenYAxis, circlesGroup) {
   if (chosenXAxis === 'Probability of Dying 5-9') {
     var xLabel = 'Probability of Dying 5-9:';
   }
-  //income
+  //probability 15
   else if (chosenXAxis === 'Probability of Dying 15-19') {
     var xLabel = 'Probability of Dying 15-19:';
   }
-  //age
+  //Probability 10
   else {
     var xLabel = 'Probability of Dying 10-14:';
   }
   //Y label
-  //healthcare
+  //Sanitation
   if (chosenYAxis === 'Basic Sanitation') {
     var yLabel = 'Basic Sanitation:';
+    // Access to Drinking Water
   } else if (chosenYAxis === 'Access to Drinking Water') {
     var yLabel = 'Access to Drinking Water:';
   }
-  //smoking
+  // Access to Electricity
   else {
     var yLabel = 'Access to Electricity:';
   }
@@ -145,7 +150,7 @@ function updateToolTip(chosenXAxis, chosenYAxis, circlesGroup) {
     .offset([-8, 0])
     .html(function (d) {
       return `${
-        d.state
+        d.Country
       }<br>${xLabel} ${valueX(d[chosenXAxis], chosenXAxis)}<br>${yLabel} ${d[chosenYAxis]}%`;
     });
 
@@ -218,7 +223,7 @@ d3.json('/api/v1/data').then(function (data) {
     .append('g')
     .attr('transform', `translate(${width / 2}, ${height + 10 + margin.top})`);
 
-  var povertyLabel = xLabelsGroup
+  var prob5Label = xLabelsGroup
     .append('text')
     .classed('aText', true)
     .classed('active', true)
@@ -227,30 +232,30 @@ d3.json('/api/v1/data').then(function (data) {
     .attr('value', 'Probability of Dying 5-9')
     .text('Probability of Dying 5-9 (%)');
 
-  var ageLabel = xLabelsGroup
+  var prob10Label = xLabelsGroup
     .append('text')
     .classed('aText', true)
     .classed('inactive', true)
     .attr('x', 0)
     .attr('y', 40)
     .attr('value', 'Probability of Dying 10-14')
-    .text('Probability of Dying 10-14');
+    .text('Probability of Dying 10-14 (%)');
 
-  var incomeLabel = xLabelsGroup
+  var prob15Label = xLabelsGroup
     .append('text')
     .classed('aText', true)
     .classed('inactive', true)
     .attr('x', 0)
     .attr('y', 60)
     .attr('value', 'Probability of Dying 15-19')
-    .text('Probability of Dying 15-19');
+    .text('Probability of Dying 15-19 (%)');
 
   //create a group for Y labels
   var yLabelsGroup = chartGroup
     .append('g')
     .attr('transform', `translate(${0 - margin.left / 4}, ${height / 2})`);
 
-  var healthcareLabel = yLabelsGroup
+  var sanitationLabel = yLabelsGroup
     .append('text')
     .classed('aText', true)
     .classed('active', true)
@@ -261,7 +266,7 @@ d3.json('/api/v1/data').then(function (data) {
     .attr('value', 'Basic Sanitation')
     .text('Basic Sanitation (%)');
 
-  var smokesLabel = yLabelsGroup
+  var electricityLabel = yLabelsGroup
     .append('text')
     .classed('aText', true)
     .classed('inactive', true)
@@ -272,7 +277,7 @@ d3.json('/api/v1/data').then(function (data) {
     .attr('value', 'Access to Electricity')
     .text('Access to Electricity (%)');
 
-  var obesityLabel = yLabelsGroup
+  var waterLabel = yLabelsGroup
     .append('text')
     .classed('aText', true)
     .classed('inactive', true)
@@ -281,7 +286,7 @@ d3.json('/api/v1/data').then(function (data) {
     .attr('dy', '1em')
     .attr('transform', 'rotate(-90)')
     .attr('value', 'Access to Drinking Water')
-    .text('Access to Drinking Water');
+    .text('Access to Drinking Water (%)');
 
   // Update Tooltip
   var circlesGroup = updateToolTip(chosenXAxis, chosenYAxis, circlesGroup);
@@ -289,6 +294,7 @@ d3.json('/api/v1/data').then(function (data) {
   // X Axis event listener
   xLabelsGroup.selectAll('text').on('click', function () {
     var value = d3.select(this).attr('value');
+    console.log(value);
 
     if (value != chosenXAxis) {
       // Replace X with a value
@@ -316,24 +322,25 @@ d3.json('/api/v1/data').then(function (data) {
       circlesGroup = updateToolTip(chosenXAxis, chosenYAxis, circlesGroup);
 
       // Change of classes to change text depending on selection
-      if (chosenXAxis === 'Access to Drinking Water') {
-        povertyLabel.classed('active', true).classed('inactive', false);
-        ageLabel.classed('active', false).classed('inactive', true);
-        incomeLabel.classed('active', false).classed('inactive', true);
+      if (chosenXAxis === 'Probability of Dying 5-9') {
+        prob5Label.classed('active', true).classed('inactive', false);
+        prob10Label.classed('active', false).classed('inactive', true);
+        prob15Label.classed('active', false).classed('inactive', true);
       } else if (chosenXAxis === 'Probability of Dying 10-14') {
-        povertyLabel.classed('active', false).classed('inactive', true);
-        ageLabel.classed('active', true).classed('inactive', false);
-        incomeLabel.classed('active', false).classed('inactive', true);
+        prob5Label.classed('active', false).classed('inactive', true);
+        prob10Label.classed('active', true).classed('inactive', false);
+        prob15Label.classed('active', false).classed('inactive', true);
       } else {
-        povertyLabel.classed('active', false).classed('inactive', true);
-        ageLabel.classed('active', false).classed('inactive', true);
-        incomeLabel.classed('active', true).classed('inactive', false);
+        prob5Label.classed('active', false).classed('inactive', true);
+        prob10Label.classed('active', false).classed('inactive', true);
+        prob15Label.classed('active', true).classed('inactive', false);
       }
     }
   });
   // Y Axis event listener
   yLabelsGroup.selectAll('text').on('click', function () {
     var value = d3.select(this).attr('value');
+    console.log(value);
 
     if (value != chosenYAxis) {
       // Replace y
@@ -362,17 +369,17 @@ d3.json('/api/v1/data').then(function (data) {
 
       // Change of classes to change text depending on selection
       if (chosenYAxis === 'Access to Drinking Water') {
-        obesityLabel.classed('active', true).classed('inactive', false);
-        smokesLabel.classed('active', false).classed('inactive', true);
-        healthcareLabel.classed('active', false).classed('inactive', true);
+        waterLabel.classed('active', true).classed('inactive', false);
+        electricityLabel.classed('active', false).classed('inactive', true);
+        sanitationLabel.classed('active', false).classed('inactive', true);
       } else if (chosenYAxis === 'Access to Electricity') {
-        obesityLabel.classed('active', false).classed('inactive', true);
-        smokesLabel.classed('active', true).classed('inactive', false);
-        healthcareLabel.classed('active', false).classed('inactive', true);
+        waterLabel.classed('active', false).classed('inactive', true);
+        electricityLabel.classed('active', true).classed('inactive', false);
+        sanitationLabel.classed('active', false).classed('inactive', true);
       } else {
-        obesityLabel.classed('active', false).classed('inactive', true);
-        smokesLabel.classed('active', false).classed('inactive', true);
-        healthcareLabel.classed('active', true).classed('inactive', false);
+        waterLabel.classed('active', false).classed('inactive', true);
+        electricityLabel.classed('active', false).classed('inactive', true);
+        sanitationLabel.classed('active', true).classed('inactive', false);
       }
     }
   });

@@ -33,5 +33,10 @@ def serveData():
     return jsonify(list(wdi_db.find({}, {'_id': 0})))
 
 
+@app.route("/api/v1/bar", methods=['GET'])
+def serveDataBar():
+    return jsonify(list(wdi_db.find({}, {'_id': 0})))
+
+
 if __name__ == "__main__":
     app.run(debug=True)
