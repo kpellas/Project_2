@@ -8,27 +8,14 @@ This is a Group 8 project found at the [main GitHub repo](https://github.com/kpe
 
 ## Project Intro/Objective
 
-The purpose of this project is to explore the WDI as SocialEconomic , Education , Healthcare, Mortality , Population impact on Poverty and Children.
+The purpose of this project is to explore the WDI as socialeconomic, education, healthcare, mortality in children.
 
-### Partner
-
-* Kelly Knight-Pellas
-* Srivasthan Krishna
-* Ali Asghir
-* Kevin
-
-### Methods Used
-
-* Data Visualization
-
-### Technologies
-
-* Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
+* Python/Pandas 
 * JavaScript
+* D3
+* MongoDb
+* Jupyter Notebook
+* HTML
 * CSS
 
 
@@ -50,36 +37,9 @@ https://datacatalog.worldbank.org/search/dataset/0037712/World-Development-Indic
 
 ## Project Description
 
-Demographics Analysis creating a scatter plot between data variables such as SocialEconomic , Education , Healthcare, Mortality , Population
-Using the D3 techniques create a scatter plot that represents each state with transition animate circle elements.
-
-
-## Needs of this project
-
-- frontend developers
-- data exploration
-- data processing/cleaning
-- writeup/reporting
-
-## Workflow
-
- Collect Raw Data CVS  
-                     =>
-                      Data manipulation,
-                      Cleaning and mining ,
-                      Statistical analysis ,
-                      Database connection.   
-                                          =>  
-                                            SQL database in Postgres server 
-                                                                            =>
-                                                                              Web application framework
-                                                                                    JSON API
-                                                                                             =>
-                                                                                                 Json API reader, JQuery, D3,
-                                                                                                                                                                                                                                                                                                       =>
-                                                                                                                                   Web visualization
-                                                                                                                                    Flask
-                                                                                                                                    Html
+Demographics Analysis creating a scatter plot between data asoociated with socioEconomics and mortality.
+Using the D3 to create a scatterplot that compares these factors to determine coorelations.
+                                                                
               
                                                                                                
 
